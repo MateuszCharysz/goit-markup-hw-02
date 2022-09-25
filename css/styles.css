@@ -1,2 +1,18 @@
-
-
+:root {
+  --highlight-color: #2196f3;
+  --bk-dark-color: #2f303a;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway";
+  font-size: 26;
+}
+[href="Web"] {
+  color: var(--highlight-color);
+}
