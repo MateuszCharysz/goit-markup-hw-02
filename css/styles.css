@@ -1,18 +1,59 @@
 :root {
   --highlight-color: #2196f3;
   --bk-dark-color: #2f303a;
+  --main-font-color: #212121;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #212121;
+  color: var(--main-font-color);
+}
+.nav-link {
+  vertical-align: middle;
+  font-weight: 500;
 }
 .link {
   text-decoration: none;
+  color: var(--main-font-color);
+  line-height: 1.14;
+  font-size: 14;
+}
+.link:visited {
+  color: inherit;
+}
+.link:focus,
+.link:hover {
+  color: var(--highlight-color);
 }
 .logo {
   font-family: "Raleway";
   font-size: 26;
-}
-[href="Web"] {
+  font-weight: 700;
+  line-height: 1, 15;
   color: var(--highlight-color);
+}
+.contrast {
+  background-color: var(--bk-dark-color);
+  color: #fff;
+}
+.call-to-action-h2 {
+  font-weight: 900;
+  font-size: 44;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.call-to-action-button {
+  background: var(--highlight-color);
+  box-shadow: 0 4 4 rgba(0, 0, 0, 0.15);
+  width: 200;
+  height: 50;
+  border-radius: 4;
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1, 88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: inherit;
 }
