@@ -19,7 +19,7 @@ font-family: "Roboto", sans-serif;-->
 
   <body>
     <header>
-      <a class="logo link" href="index.html"><h1>WebStudio</h1></a>
+      <a class="logo" href="index.html"><h1>WebStudio</h1></a>
       <nav class="nav-link">
         <a class="link" href="#Agencja">Agencja</a>
         <a class="link" href="portfolio.html">Portfolio</a>
@@ -29,7 +29,7 @@ font-family: "Roboto", sans-serif;-->
       <a class="link" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-      <section class="contrast">
+      <section class="call-to-action contrast">
         <h2 class="call-to-action-h2">
           efektywne rozwiązania dla naszego biznesu
         </h2>
@@ -39,29 +39,29 @@ font-family: "Roboto", sans-serif;-->
       </section>
       <section id="Portfolio">
         <div>
-          <ul>
-            <li>
+          <ul class="features">
+            <li class="feature">
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="feature">
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="feature">
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="feature">
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -71,8 +71,8 @@ font-family: "Roboto", sans-serif;-->
           </ul>
         </div>
         <div>
-          <h2>Czym się zajmujemy</h2>
-          <ul>
+          <h2 class="h2-title">Czym się zajmujemy</h2>
+          <ul class="boxes">
             <li>
               <img
                 src="images/box1.jpg"
@@ -100,12 +100,12 @@ font-family: "Roboto", sans-serif;-->
           </ul>
         </div>
       </section>
-      <section id="Agencja">
-        <h2>Nasz zespół</h2>
+      <section id="Agencja" class="team">
+        <h2 class="h2-title">Nasz zespół</h2>
 
-        <ul>
+        <ul class="team-cards">
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img1.jpg"
                 alt="mezczyzna-brazowa-koszula"
@@ -113,13 +113,13 @@ font-family: "Roboto", sans-serif;-->
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <h3 class="team-card-name">John Doe</h3>
+                <p class="team-card-job">Product Designer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img2.jpg"
                 alt="Kobieta-czarny-zakiet"
@@ -127,13 +127,13 @@ font-family: "Roboto", sans-serif;-->
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Frontend Developer</p>
+                <h3 class="team-card-name">John Doe</h3>
+                <p class="team-card-job">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img3.jpg"
                 alt="Mezczyzna-jasna-koszula"
@@ -141,13 +141,13 @@ font-family: "Roboto", sans-serif;-->
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Marketing</p>
+                <h3 class="team-card-name">John Doe</h3>
+                <p class="team-card-job">Marketing</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img4.jpg"
                 alt="Mezczyzna-czarny-tshirt"
@@ -155,16 +155,16 @@ font-family: "Roboto", sans-serif;-->
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>UI Designer</p>
+                <h3 class="team-card-name">John Doe</h3>
+                <p class="team-card-job">UI Designer</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer id="Kontakt" class="contrast">
-      <a href="index.html" class="contrast logo link">WebStudio</a>
+    <footer id="Kontakt" class="contrast contact-data">
+      <a href="index.html" class="contrast logo">WebStudio</a>
       <address>
         m. Warszawa, Aleje Jerozolimskie 21
 
