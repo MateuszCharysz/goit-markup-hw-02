@@ -5,15 +5,21 @@
   --ordinary-font-color: #757575;
   --line-height-for-font-14: 1.14;
   --element-horizontal-gap: 30px;
+  --team-and-button-color: #f5f4fa;
+  --project-gallery-figure-border-color: #eeeeee;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-font-color);
 }
+.menu {
+  border-bottom: 1px solid #ececec;
+}
 .nav-link {
   vertical-align: middle;
   font-weight: 500;
 }
+
 .link {
   text-decoration: none;
   color: var(--main-font-color);
@@ -26,6 +32,9 @@ body {
 .link:focus,
 .link:hover {
   color: var(--highlight-color);
+}
+.gray-mail-phone {
+  color: var(--ordinary-font-color);
 }
 .logo {
   font-family: "Raleway";
@@ -105,7 +114,7 @@ body {
   letter-spacing: 0.03em;
 }
 .team {
-  background: #f5f4fa;
+  background: var(--team-and-button-color);
   min-height: 648px;
   vertical-align: middle;
 }
@@ -146,4 +155,72 @@ body {
   letter-spacing: 0.03em;
   color: var(--ordinary-font-color);
 }
-.contact-data {min-height: 252px;}
+.contact-data {
+  min-height: 252px;
+}
+.filter-buttons {
+  list-style-type: none;
+  columns: 5;
+  column-gap: 8px;
+  text-align: center;
+}
+.filter-button {
+  background-color: var(--team-and-button-color);
+  border: 4px;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+
+.filter-button:hoover {
+  cursor: pointer;
+}
+.filter-button:active {
+  background-color: var(--highlight-color);
+  color: #fff; /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.project-gallery {
+  list-style-type: none;
+  columns: 3;
+}
+.project {
+  height: 404px;
+  width: 380px;
+  border: 1px;
+  border-style: solid;
+  border-color: var(--project-gallery-figure-border-color);
+}
+.project-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-family: "Roboto";
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.88x;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--ordinary-font-color);
+}
