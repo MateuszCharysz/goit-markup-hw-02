@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-First homework (HTML PAGE)
+# goit-markup-hw-02
+Second homework (HTML PAGE + CSS)
+In CSS no boxes - only text formatting and buttons. No rules for placement.
