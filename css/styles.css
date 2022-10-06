@@ -84,6 +84,10 @@ body {
   color: inherit;
 }
 
+.call-to-action-button:hover {
+  cursor: pointer;
+}
+
 .features {
   list-style-type: none;
 }
@@ -212,7 +216,7 @@ body {
 
 .project {
   height: 404px;
-  width: 380px;
+  width: 370px;
   border: 1px;
   border-style: solid;
   border-color: var(--project-gallery-figure-border-color);
@@ -240,8 +244,4 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--ordinary-font-color);
-}
-
-.hidden {
-  display: none;
 }
