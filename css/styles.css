@@ -6,7 +6,7 @@
   --line-height-for-font-14: 1.14;
   --element-horizontal-gap: 30px;
   --team-and-button-color: #f5f4fa;
-  --project-gallery-figure-border-color: #eeeeee;
+  --project-gallery-border-color: #eeeeee;
 }
 
 body {
@@ -195,11 +195,8 @@ body {
   color: inherit;
 }
 
+.filter-button:active,
 .filter-button:hover {
-  cursor: pointer;
-}
-
-.filter-button:active {
   cursor: pointer;
   background-color: var(--highlight-color);
   color: #fff;
@@ -219,7 +216,7 @@ body {
   width: 370px;
   border: 1px;
   border-style: solid;
-  border-color: var(--project-gallery-figure-border-color);
+  border-color: var(--project-gallery-border-color);
 }
 
 .project-title {
